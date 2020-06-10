@@ -1,0 +1,85 @@
+.top {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    font-size: 35px;
+    margin-top: 2%;
+}
+
+.top i {
+    color: rgb(29, 161, 242);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.top #icon {
+    width: 30px;
+    display: flex;
+    justify-content: left;
+    margin-left: 3%;
+}
+
+#imgBack {
+    display: flex;
+    margin-left: 2%;
+}
+
+#formHome {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 12%;
+}
+
+#formHome h1 {
+    margin-bottom: 35%;
+}
+
+#formHome input {
+    margin-top: 20%;
+    background: none;
+    border: none;
+   
+    font-size: 16px;
+    color: rgb(131, 147, 160);
+    width: 100%;
+}
+
+#formHome input:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+#formHome .input{
+    border-bottom: 1px solid rgb(29, 161, 242);
+    height: 78px;
+    position: relative;
+}
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-top: 46%;
+    border-top: 1px solid rgba(131, 147, 160, 0.473);
+}
+.footer button{
+    display: flex;
+    margin-right: 5%;
+    margin-top: 3%;
+    border: none;
+    color: white;
+    width: 26%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 161, 242);
+    border-radius: 23px 23px 23px 23px;
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
